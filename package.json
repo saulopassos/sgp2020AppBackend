@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",    
+    "nodemon": "^1.19.4",
+    "sequelize-cli": "^5.5.1",
+    "sucrase": "^3.10.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express4-tedious": "^0.3.0",
+    "mysql2": "^2.0.0",
+    "sequelize": "^5.21.2",
+    "tedious": "^6.6.0"
+  }
+}
