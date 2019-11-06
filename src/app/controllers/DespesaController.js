@@ -2,8 +2,7 @@ import Despesa from '../models/Despesa';
 
 class DespesaController {
   async index(req, res) {
-    const despesas = await Despesa.listByCode(201);
-    console.log(despesas);
+    const despesas = await Despesa.listByCode(5200);
     return res.json(despesas.result);
   }
 }

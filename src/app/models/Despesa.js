@@ -20,7 +20,7 @@ class Despesa extends Model {
           + ' SALDODESPESA.vlReducao -'
           + ' SALDODESPESA.vlReserva -'
           + ' SALDODESPESA.vlEmpenhado +'
-          + ' SALDODESPESA.vlAnulado), 0) AS sdAtual '
+          + ' SALDODESPESA.vlAnulado), 0) AS saldo '
       + ' FROM'
           + ' DESPESA'
           + ' left JOIN SALDODESPESA'
